@@ -35,7 +35,7 @@ ttl=$(ping -c 1 $ip | grep "ttl=" | cut -d " " -f 6 | sed "s/ttl=//g")
         fi
 
     else 
-		echo -e "\n${red}ERROR, hay fallos en la conectividad${endColour}"  				
+		echo -e "\n${red}ERROR, hay fallos en la conectividad\n${endColour}"  				
     fi
 
 else
