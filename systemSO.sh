@@ -1,4 +1,5 @@
 #!/bin/bash
+#date: 09/09/21
 #Author W1sfly (Juan Manuel Garcia)
 
 #************************Colores*************************
